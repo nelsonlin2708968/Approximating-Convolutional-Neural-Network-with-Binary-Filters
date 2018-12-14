@@ -7,7 +7,9 @@ This project focuses on the partial implementation of the article [Towards Accur
 The main notebook is in `approx_cnn_notebook.ipynb`. It goes through how to load the data, how to train a full-weigh CNN on the data and use this pretrained model to train an approximated CNN using binary filters.
 You can load the raw CIFAR-10 data using the `load_data` function from `cifar_utils.py`.
 The `approx_cnn.py` file contains all the necessary classes and functions to build and train our networks using tensorflow.
-The `cnn_jupyter_tensorboard.py` file contains the necessary functions to retrieve and plot the tensorflow loss graphs of our CNN's. The models and logs are saved in the respective folders `model` and `log`
+The `cnn_jupyter_tensorboard.py` file contains the necessary functions to retrieve and plot the tensorflow loss graphs of our CNN's. 
+
+The models and logs are saved in the respective folders `model` and `log`
 
 ## Authors
 
